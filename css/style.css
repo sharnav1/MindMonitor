@@ -49,3 +49,8 @@ body{
 .container {
     margin-bottom: 40px;
 }
+
+.hero img {
+    width: 300px;
+    margin-bottom: 20px;
+}
