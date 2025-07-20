@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 /* Navbar Styles */
 .navbar { 
-    background-color: blue; /* Blue background */
+    background-color:#6f42c1; /* Epilepsy purple*/ 
     padding: 10px;
 }
 
@@ -8,6 +14,7 @@
     color: white;
     text-decoration: none;
     margin-right: 15px;
+    font-weight: 500;
 }
 
 .logo {
@@ -17,4 +24,24 @@
 
 .navbar a:hover {
     text-decoration: underline; /* Hover Effect */
+}
+
+.hero {
+    padding: 50px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+
+.btn-primary {
+    background-color: #6f42c1;
+}
+
+.btn-primary:hover {
+    background-color: #5a32a3;
+}
+
+.text-primary {
+    color: #6f42c1 !important;
 }
