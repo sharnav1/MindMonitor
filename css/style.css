@@ -1,0 +1,20 @@
+/* Navbar Styles */
+.navbar { 
+    background-color: blue; /* Blue background */
+    padding: 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.logo {
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.navbar a:hover {
+    text-decoration: underline; /* Hover Effect */
+}
