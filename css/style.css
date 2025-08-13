@@ -23,6 +23,7 @@ body{
 }
 
 .navbar a:hover {
+    color: #d6b3ff;
     text-decoration: underline; /* Hover Effect */
 }
 
